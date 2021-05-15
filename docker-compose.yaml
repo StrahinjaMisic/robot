@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  robot:
+    build: .
+    image: robot_image:latest
+    ports:
+    - 8080:8080
